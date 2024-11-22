@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="UdyneO2" fetch="https://github.com/UdyneO2" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/realme/RMX2195" name="device_RMX2195" remote="UdyneO2" revision="main" />
+
+    <!-- Device - Common -->
+
+    <!-- Kernel -->
+    <project path="kernel/realme/RMX2195" name="kernel_RMX2195" remote="UdyneO2" revision="main" />
+
+    <!-- Vendor -->
+    <project path="vendor/realme/RMX2195" name="vendor_RMX2195" remote="UdyneO2" revision="main" />
+
+    <!-- Vendor - Common -->
+
+</manifest>
