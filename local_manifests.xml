@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Generated using sounddrill31/actions_generate_local_manifests -->
-
-    <!-- Remotes -->
-    <remote name="nurfinzmuhamad" fetch="https://github.com/nurfinzmuhamad" clone-depth="1" />
-    <remote name="UdyneO2" fetch="https://github.com/UdyneO2" clone-depth="1" />
-
-    <!-- Removals -->
-
-    <!-- Repos -->
-    <!-- Device -->
-    <project path="device/realme/RMX2195" name="device_realme_RMX2195" remote="nurfinzmuhamad" revision="lineage-18.1" />
-
-    <!-- Device - Common -->
-
-    <!-- Kernel -->
-    <project path="kernel/realme/RMX2195" name="kernel_realme_RMX2195" remote="UdyneO2" revision="lineage-18.1" />
-
-    <!-- Vendor -->
-    <project path="vendor/realme/RMX2195" name="vendor_realme_RMX2195" remote="nurfinzmuhamad" revision="lineage-18.1" />
-
-    <!-- Vendor - Common -->
-
+  <project name="SM4250-Dev/device_realme_RMX2195" path="device/realme/RMX2195" remote=12.1>
+  <project name="SM4250-Dev/device_realme_sm4250-common" path="device/realme/sm4250-com remote=stable">
+  <project name="SM4250-Dev/android_kernel_realme_RMX2195" path="kernel/realme/RMX2195">
+  <project name="SM4250-Dev/vendor_realme_RMX2195" path="vendor/realme/RMX2195" remote=12.1>
+  <project name="SM4250-Dev/vendor_realme_sm4250-common" path="vendor/realme/sm4250-com>
 </manifest>
