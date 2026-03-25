@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="SM4250-Dev/device_realme_RMX2195" path="device/realme/RMX2195" remote=12.1>
-  <project name="SM4250-Dev/device_realme_sm4250-common" path="device/realme/sm4250-com remote=stable">
-  <project name="SM4250-Dev/android_kernel_realme_RMX2195" path="kernel/realme/RMX2195">
-  <project name="SM4250-Dev/vendor_realme_RMX2195" path="vendor/realme/RMX2195" remote=12.1>
-  <project name="SM4250-Dev/vendor_realme_sm4250-common" path="vendor/realme/sm4250-com>
+  <!-- Device Trees -->
+  <project name="SM4250-Dev/device_realme_RMX2195" 
+           path="device/realme/RMX2195" 
+           remote="github" 
+           revision="12.1" />
+  
+  <project name="SM4250-Dev/device_realme_sm4250-common" 
+           path="device/realme/sm4250-common" 
+           remote="github" 
+           revision="12.1" />
+  
+  <!-- Kernel Source -->
+  <project name="SM4250-Dev/android_kernel_realme_RMX2195" 
+           path="kernel/realme/RMX2195" 
+           remote="github" 
+           revision="stable" />
+  
+  <!-- Vendor Blobs -->
+  <project name="SM4250-Dev/vendor_realme_RMX2195" 
+           path="vendor/realme/RMX2195" 
+           remote="github" 
+           revision="12.1" />
+  
+  <project name="SM4250-Dev/vendor_realme_sm4250-common" 
+           path="vendor/realme/sm4250-common" 
+           remote="github" 
+           revision="12.1" />
 </manifest>
